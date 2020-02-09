@@ -59,15 +59,19 @@ a:hover{
     text-decoration: none;
 }
 
-.landscape{
-    width: 50px;
-    z-index: 1;
-}
+
 
 .images-landscape{
-    background: grey;
-    overflow: auto;
-    z-index: 1;
+    
+width: 600px;
+height: 400;
+position: absolute;
+left: 0px;
+top: 700px;
+}
+
+.landscape{
+    width: 1350px;
 }
 
 
