@@ -1,6 +1,6 @@
 body{
-    background: black;
-    background-color: black;
+    background: grey;
+    background-color: gray;
 
 }
 
@@ -64,14 +64,16 @@ a:hover{
 .images-landscape{
     
 width: 600px;
-height: 400;
+height: 100;
 position: absolute;
 left: 0px;
-top: 700px;
+top: 900px;
+
 }
 
 .landscape{
     width: 1350px;
+    margin: 100px;
 }
 
 
