@@ -49,14 +49,14 @@ body{
 
 
 .slidershow{
-    width: 700px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
     overflow: hidden;
     margin-bottom: 30px;
   }
   .middle{
     position: absolute;
-    top: 1200px;
+    top: 1300px;
     left: 50%;
     transform: translate(-50%,-50%);
   }
@@ -120,10 +120,165 @@ body{
   background-color: #211b4385;
 }
 
-#nature-title{
+#pet-photography-title{
   position: absolute;
-  top: 950px;
-  left: 330px;
+  top: 1000px;
+  left: 475px;
   font-size: 40px;
   font-family:serif;
 }
+
+/*slider number 2*/
+.slidershow-2{
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.middle-2{
+  position: absolute;
+  top: 2000px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation-2{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar-2{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar-2:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides-2{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide-2{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide-2 img{
+  width: 100%;
+  height: 100%;
+}
+
+#r6:checked ~ .s1{
+  margin-left: 0;
+}
+#r7:checked ~ .s1{
+  margin-left: -20%;
+}
+#r8:checked ~ .s1{
+  margin-left: -40%;
+}
+#r9:checked ~ .s1{
+  margin-left: -60%;
+}
+#r10:checked ~ .s1{
+  margin-left: -80%;
+}
+/* end of gallery slider number 2*/
+#nature-title{
+  position: absolute;
+  top: 1750px;
+  left: 375px;
+  font-size: 40px;
+  font-family:serif;
+}
+
+
+/*start of gallery about Sports*/
+.slidershow-3{
+  width: 400px;
+  height: 500px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.middle-3{
+  position: absolute;
+  top: 3000px;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation-3{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar-3{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar-3:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides-3{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide-3{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide-3 img{
+  width: 100%;
+  height: 100%;
+}
+
+#r11:checked ~ .s1{
+  margin-left: 0;
+}
+#r12:checked ~ .s1{
+  margin-left: -20%;
+}
+#r13:checked ~ .s1{
+  margin-left: -40%;
+}
+#r14:checked ~ .s1{
+  margin-left: -60%;
+}
+#r15:checked ~ .s1{
+  margin-left: -80%;
+}
+/* end of gallery about Sports*/
+
+#sports-title{
+  position: absolute;
+  top: 2700px;
+  left: 475px;
+  font-size: 40px;
+  font-family:serif;
+}
+
