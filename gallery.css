@@ -4,6 +4,7 @@
 }
 
 body{
+  z-index: 10;
     background: url(1.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
@@ -51,10 +52,11 @@ body{
     width: 700px;
     height: 400px;
     overflow: hidden;
+    margin-bottom: 30px;
   }
   .middle{
     position: absolute;
-    top: 50%;
+    top: 1200px;
     left: 50%;
     transform: translate(-50%,-50%);
   }
@@ -112,4 +114,16 @@ body{
   #r5:checked ~ .s1{
     margin-left: -80%;
   }
-  
+  /* end of gallery slider*/
+
+body{
+  background-color: #211b4385;
+}
+
+#nature-title{
+  position: absolute;
+  top: 950px;
+  left: 330px;
+  font-size: 40px;
+  font-family:serif;
+}
