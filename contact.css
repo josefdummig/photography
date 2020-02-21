@@ -42,3 +42,65 @@ body{
     background-color: #211b4385;
 }
 
+/*end of header*/
+
+.social{
+    position: absolute;
+    left:50%;
+    top: 1000px;
+    margin: 50px;
+    transform: translate(-50%, 50%);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+li{display: inline-block; margin: 0 3px;}
+
+.social-icons{
+    background: #e74c3c;
+    border: 5px solid #e74c3c; 
+    width: 400px;
+    height: 200px;
+    padding-top: 30px;
+    display: block;
+    font-size: 35px;
+    color:white;
+}
+
+
+.social-icons:hover{
+    border-radius: 50%;
+    color: blue;
+}
+
+#email{ 
+    background: #e74c3c;
+    border: 5px solid #e74c3c; 
+    width: 400px;
+    height: 200px;
+    padding-top: 30px;
+    display: block;
+    font-size: 35px;
+    color:white;
+    align-items: center;
+    margin: 30px;
+}
+
+#email:hover{
+        background: black; 
+        border:5px solid black;
+        font-size: 0;  
+}
+
+
+#email:hover:after{
+    content: attr(data-hover);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+}
