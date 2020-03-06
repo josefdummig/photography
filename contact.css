@@ -82,48 +82,45 @@ li{
 }
 
 #email{ 
-    background: #e74c3c;
-    border: 5px solid #e74c3c; 
-    width: 250px;
-    height: 100px;
-    padding-top: 30px;
-    display: block;
-    font-size: 35px;
-    color:white;
-    align-items: center;
-    margin: 30px;
-    margin-right: 20px;
     position: absolute;
-    top: 250px;
-    right: 400px;
+    top: 300px;
+    left: 1750px;
 }
 
 #facebook{
     position: absolute;
-    top: 150px;
-    right: 550px;
+    top: 10px;
+    left: 1750px;
 }
 
 
 #insta{
     position: absolute;
-    top: 10px;
-    right: 550px;
+    top: 150px;
+    left: 1750px;
+}
+/*after this is footer*/
+
+.footer{
+    position: absolute;
+    top: 600px;
+    left: 5px;
+    background-color: rgb(252, 247, 247, .2);    
+    border: 3px dotted blue;
+    font-size: 50px;
+   
+
 }
 
-
-#email:hover{
-        background: black; 
-        border:5px solid black;
-        font-size: 0;  
+#footer-instagram{
+    position: absolute;
+    top: 600px;
+    left: 700px;
+    background-color: rgb(252, 247, 247, .2);
+    border: 3px dotted blue;
+    font-size: 50px;
+    
 }
 
-
-#email:hover:after{
-    content: attr(data-hover);
-    font-size: 24px;
-    line-height: 28px;
-    font-weight: 200;
-}
 
 
