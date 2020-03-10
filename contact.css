@@ -106,7 +106,8 @@ li{
     top: 600px;
     left: 5px;
     background-color: rgb(252, 247, 247, .2);    
-    border: 3px dotted red;
+    border: 3px groove red;
+    border-radius: 10px;
     font-size: 50px;
    
 
@@ -117,7 +118,8 @@ li{
     top: 600px;
     left: 700px;
     background-color: rgb(252, 247, 247, .2);
-    border: 3px dotted blue;
+    border: 3px groove blue;
+    border-radius: 10px;
     font-size: 50px;
     
 }
